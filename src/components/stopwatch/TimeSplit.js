@@ -1,15 +1,10 @@
 import React from "react"
 
-function TimeSplit (){
+function TimeSplit (props){
     return (
         
-        <span 
-            className = "split-time"
-            hours = {this.props.hours}
-            minutes = {this.props.minutes}
-            seconds = {this.props.seconds}
-        >
-            {this.props.hours} : {this.props.minutes} : {this.props.seconds}
+        <span className = "split-time">
+            {props.hours} : {props.minutes} : {props.seconds}
         </span>
             
     )

@@ -1,5 +1,5 @@
 import React from 'react'
-import timeConvert from '../functions/TimeConvert'
+import timeConvert from './functions/TimeConvert'
 
 function Analog (props){
     const [hours, minutes, seconds] = timeConvert(props.time);

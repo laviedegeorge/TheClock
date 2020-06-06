@@ -2,6 +2,7 @@ import React from 'react';
 import Clock from './components/Clock'
 import Footer from './components/Footer'
 import './App.css';
+import Stopwatch from './components/stopwatch/StopWatch';
 
 class App extends React.Component {
   constructor(props) {
@@ -32,6 +33,7 @@ class App extends React.Component {
     return (
       <div>
         <Clock time={this.state.time} />
+        <Stopwatch time={this.state.time}/>
         <Footer />
       </div>
     );

@@ -1,5 +1,5 @@
 import React from 'react'
-import timeConvert from '../functions/TimeConvert'
+import timeConvert from './functions/TimeConvert'
 
 function Digital (props){
     const [hours, minutes, seconds] = timeConvert(props.time);
